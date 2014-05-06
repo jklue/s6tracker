@@ -1,0 +1,226 @@
+/******** CSS Reset ********* */
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
+
+hr {
+  margin: 0; }
+
+/******** HTML 5 ********* */
+article, aside, figure, footer, header, nav, section {
+  display: block; }
+
+/******** Fonts ********* */
+/******** Colors ********* */
+/******** General ********* */
+html, body, .page, ul {
+  height: 100%;
+  margin: 0; }
+
+body {
+  height: 91%;
+  margin: 0; }
+
+body {
+  background-color: #222222;
+  color: #998576;
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+
+h1 {
+  font-size: 3em; }
+
+a, hr, p {
+  color: #f2eac7; }
+
+nav ul li {
+  height: auto;
+  width: auto;
+  font-size: 24px;
+  position: absolute;
+  top: 0; }
+nav ul li a {
+  color: #998576; }
+nav li.back {
+  left: 10px; }
+nav li.labels {
+  left: 45px;
+  display: none; }
+nav li.logout {
+  right: 10px; }
+
+div.statusLetter {
+  font-family: "freight-sans-pro", sans-serif;
+  color: #f2eac7;
+  position: absolute;
+  right: 1em;
+  padding-top: 1em; }
+
+footer {
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center; }
+
+/******** Home Page ********* */
+.page {
+  max-width: 320px;
+  margin: 2.5em auto 0px;
+  text-align: center; }
+  .page p, .page input {
+    font-family: "freight-sans-pro", sans-serif; }
+
+.page-buttons {
+  margin: 5em 0 3em; }
+
+.page-buttons a {
+  color: #eeeeee;
+  background-color: #ffa640;
+  padding: 0.5em;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 1em; }
+
+.page-buttons a:hover {
+  color: #5a5399; }
+
+.pure-form-aligned .pure-control-group label {
+  display: none; }
+.pure-form-aligned .pure-control-group input {
+  margin: 0 auto; }
+
+.pure-form-aligned .pure-controls {
+  margin: 1em 0 0; }
+
+ul {
+  width: 100%; }
+  ul li {
+    height: 33%;
+    font-size: 32px;
+    line-height: 40px;
+    display: table;
+    width: 100%; }
+    ul li a, ul li p {
+      display: table-cell;
+      vertical-align: middle; }
+  ul li.welcome {
+    font-family: "freight-sans-pro", sans-serif;
+    border-top: 5px solid #998576;
+    padding-top: 16px; }
+    ul li.welcome .title {
+      color: #f2eac7; }
+
+[data-status=g] {
+  background-color: #60a881; }
+
+[data-status=a] {
+  background-color: #db834a; }
+
+[data-status=r] {
+  background-color: #ff6466; }
+
+.arrays {
+  display: none; }
+
+span.subButton {
+  font-size: 18px; }
+
+/******** Login ********* */
+.error {
+  margin: 0;
+  color: red; }
+
+/******** Font Fix ********* */
+#mainLogo, .home button, .welcome-company {
+  font-family: "burnaby-stencil", sans-serif; }
+
+/******** Platoon Page ********* */
+li.platoon {
+  height: 19%; }
+
+/******** Vehicle Page ********* */
+li.vehicle {
+  height: 25%; }
+
+/******** Equipment Page ********* */
+li.equipment {
+  height: 9%;
+  font-size: 2em; }
+
+li.title {
+  height: 6%; }
+
+/******** Status Page ********* */
+li.status {
+  height: 10%; }
+  li.status legend {
+    display: none; }
+  li.status input {
+    vertical-align: middle; }
+  li.status form textarea {
+    font-size: 24px;
+    text-align: left;
+    width: 320px; }
+  li.status form button {
+    font-size: 18px;
+    float: right;
+    margin: 1em; }
+
+.statusBlock a {
+  font-size: 20px;
+  float: right;
+  margin: 18px 4px; }
+
+.pure-button {
+  padding: 5px 10px;
+  border: 3px solid transparent; }
+
+.pure-button:hover {
+  border-color: #998576; }
+
+.pure-form button[type=submit] {
+  margin: 4px 4px 0; }
+
+.status .pure-form {
+  text-align: left; }
+
+.status .pure-form span {
+  display: none;
+  float: right; }
+
+.status .pure-form input[type=text] {
+  padding: 0 5px; }
+
+.status label, .status input[type=text] {
+  display: inline; }
+
+.status input[name=sn] {
+  width: 45%; }
+
+.status label[for=comment] {
+  display: none; }
+
+li.status p, li.status label {
+  text-align: left;
+  padding-left: 10px; }
+
+/******** Custom Media Queries ********* */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .page-buttons a {
+    padding: 1em; }
+
+  .platoon li {
+    height: 19%; }
+
+  .vehicle li {
+    height: 24%; }
+
+  .arrays {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0; } }

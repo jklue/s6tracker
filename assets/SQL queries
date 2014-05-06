@@ -1,0 +1,2 @@
+UPDATE organization_equipments SET sn='n/a'
+WHERE organization_equipment_id=140;
