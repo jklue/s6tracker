@@ -2,6 +2,7 @@
 	<!-- Show welcome if user not logged in -->
 	<?php if(!$user): ?>
 		<h1 id="mainLogo">S6 Tracker</h1>
+		<?php echo CORE_PATH; ?>
 		<p>An equipment status system<br>for commo soldiers.</p>
 		<p>(Optimized for iPhone)</p>
 		<form class="pure-form pure-form-aligned" action="/users/p_login" method="POST" >

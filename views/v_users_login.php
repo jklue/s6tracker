@@ -2,7 +2,6 @@
 <div class="login container">
 	<div class="row">
 		<h1>Log In</h1></div>
-	
 	<div class="row">
 		<form action="/users/p_login" method="POST" role="form" class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 			
